@@ -27,6 +27,46 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('@/views/ParticleView.vue'),
   },
   {
+    path: '/density-particles',
+    name: 'density-particles',
+    meta: {
+      title: '密度分布粒子',
+    },
+    component: () => import('@/views/DensityParticlesView.vue'),
+  },
+  {
+    path: '/photon-particles',
+    name: 'photon-particles',
+    meta: {
+      title: '光子发射效果',
+    },
+    component: () => import('@/views/PhotonParticlesView.vue'),
+  },
+  {
+    path: '/solar-system',
+    name: 'solar-system',
+    meta: {
+      title: '太阳系模拟',
+    },
+    component: () => import('@/views/SolarSystemView.vue'),
+  },
+  {
+    path: '/galaxy',
+    name: 'galaxy',
+    meta: {
+      title: '银河系模拟',
+    },
+    component: () => import('@/views/GalaxyView.vue'),
+  },
+  {
+    path: '/m33-galaxy',
+    name: 'm33-galaxy',
+    meta: {
+      title: 'M33三角座星系',
+    },
+    component: () => import('@/views/M33GalaxyView.vue'),
+  },
+  {
     name: '404',
     path: '/:pathMatch(.*)*',
     meta: {

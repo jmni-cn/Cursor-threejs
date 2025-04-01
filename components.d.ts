@@ -11,7 +11,10 @@ declare module 'vue' {
     2: typeof import('./src/components/ParticleScene/ParticleScene copy 2.vue')['default']
     4: typeof import('./src/components/ParticleScene/4.vue')['default']
     copy: typeof import('./src/components/ParticleScene/ParticleScene copy.vue')['default']
+    DensityParticles: typeof import('./src/components/DensityParticles/DensityParticles.vue')['default']
+    Galaxy: typeof import('./src/components/Galaxy/Galaxy.vue')['default']
     KidCom: typeof import('./src/components/kid-com.vue')['default']
+    M33Galaxy: typeof import('./src/components/M33Galaxy/M33Galaxy.vue')['default']
     NAlert: typeof import('naive-ui')['NAlert']
     NButton: typeof import('naive-ui')['NButton']
     NCard: typeof import('naive-ui')['NCard']
@@ -35,10 +38,12 @@ declare module 'vue' {
     ParticleScene3: typeof import('./src/components/ParticleScene/ParticleScene3.vue')['default']
     ParticleScene4: typeof import('./src/components/ParticleScene/ParticleScene4.vue')['default']
     ParticleScene5: typeof import('./src/components/ParticleScene/ParticleScene5.vue')['default']
+    PhotonParticles: typeof import('./src/components/PhotonParticles/PhotonParticles.vue')['default']
     PubgSupportFooter: typeof import('./src/components/pubgSupportFooter.vue')['default']
     PubgSupportHeader: typeof import('./src/components/pubgSupportHeader.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SolarSystem: typeof import('./src/components/SolarSystem/SolarSystem.vue')['default']
     VillageScene: typeof import('./src/components/VillageScene/VillageScene.vue')['default']
   }
 }
